@@ -7,7 +7,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/rows0001
-
+    - icon: linkedin  # Adding LinkedIn link
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rowshni-farnaz-fatema-956b13330/
 ---
 
 Hello! I'm **Rowshni Farnaz Fatema**, a passionate student of **Business Analytics** in the Department of Econometrics and Business Statistics at **Monash University**. With a keen interest in data-driven decision making, my academic journey has equipped me with strong analytical and problem-solving skills, enabling me to transform data into actionable insights.
@@ -19,4 +21,4 @@ On this website, you will find some of the projects and analyses I've worked on 
 Feel free to explore my [GitHub](https://github.com/rows0001) for a deeper dive into my code and projects, or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile) to discuss all things data!
 
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+
