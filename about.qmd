@@ -6,8 +6,17 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/rows0001
 
 ---
+
+Hello! I'm **Rowshni Farnaz Fatema**, a passionate student of **Business Analytics** in the Department of Econometrics and Business Statistics at **Monash University**. With a keen interest in data-driven decision making, my academic journey has equipped me with strong analytical and problem-solving skills, enabling me to transform data into actionable insights.
+
+I am particularly enthusiastic about areas such as data visualization, machine learning, and statistical modeling, which play a critical role in solving real-world business problems. My goal is to leverage my expertise to make meaningful contributions in the field of data analytics.
+
+On this website, you will find some of the projects and analyses I've worked on as part of my coursework, including data communication techniques and case studies from **ETC5523 - Communicating with Data**.
+
+Feel free to explore my [GitHub](https://github.com/rows0001) for a deeper dive into my code and projects, or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile) to discuss all things data!
+
 
 This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
