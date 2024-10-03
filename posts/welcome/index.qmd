@@ -5,6 +5,17 @@ date: "2022-07-18"
 categories: [news]
 ---
 
+From Flying Saucers to Modern Mysteries: The Evolution of UFO Sightings
+Published on October 3, 2024
+By Rowshni Farnaz Fatema
+
+Introduction
+Unidentified Flying Objects (UFOs) have captivated the world for decades. From the iconic "flying saucer" sightings of the 1940s to modern-day reports, the mystery of UFOs continues to fascinate. This blog explores the patterns and peaks of UFO sightings over time and highlights the cultural and historical factors that have influenced public interest in UFOs.
+
+
+
+
+
 This is the first post in a Quarto blog. Welcome!
 
 ![](thumbnail.jpg)
