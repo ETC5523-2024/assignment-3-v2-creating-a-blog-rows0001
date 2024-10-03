@@ -16,9 +16,8 @@ Hello! I'm **Rowshni Farnaz Fatema**, a passionate student of **Business Analyti
 
 I am particularly enthusiastic about areas such as data visualization, machine learning, and statistical modeling, which play a critical role in solving real-world business problems. My goal is to leverage my expertise to make meaningful contributions in the field of data analytics.
 
-On this website, you will find some of the projects and analyses I've worked on as part of my coursework, including data communication techniques and case studies from **ETC5523 - Communicating with Data**.
 
-Feel free to explore my [GitHub](https://github.com/rows0001) for a deeper dive into my code and projects, or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile) to discuss all things data!
+
 
 
 
