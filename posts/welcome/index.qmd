@@ -1,6 +1,6 @@
 ---
 title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
+author: "Rowshni Farnaz Fatema"
 date: "2022-07-18"
 categories: [news]
 ---
@@ -11,6 +11,13 @@ By Rowshni Farnaz Fatema
 
 Introduction
 Unidentified Flying Objects (UFOs) have captivated the world for decades. From the iconic "flying saucer" sightings of the 1940s to modern-day reports, the mystery of UFOs continues to fascinate. This blog explores the patterns and peaks of UFO sightings over time and highlights the cultural and historical factors that have influenced public interest in UFOs.
+
+
+Problem Description
+The goal of this analysis is to understand how UFO sightings have evolved over the past 70 years. Are these sightings linked to historical events, or is the public simply fascinated by the unknown? By examining data from various time periods, we can gain insights into the underlying trends and patterns of UFO sightings.
+
+
+
 
 
 
