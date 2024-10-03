@@ -40,4 +40,9 @@ This is the first post in a Quarto blog. Welcome!
 
 ![](ufo.jpg)
 
+Analysis
+UFO Sightings Over Time
+From 1947 onwards, there have been distinct peaks in UFO reports. Sightings surged after the famous 1947 sighting by Kenneth Arnold, marking the start of increased public attention. The graph below highlights the number of reported sightings from 1940 to 2020:
 
+
+As seen in the figure, major spikes occurred during periods of geopolitical tension, particularly the Cold War era. This suggests that UFO reports are influenced not only by public fascination but also by external cultural and historical events. For instance, the 1970s saw a dramatic rise in sightings, potentially driven by conspiracy theories and government mistrust during this period.
