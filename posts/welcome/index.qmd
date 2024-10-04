@@ -45,4 +45,67 @@ UFO Sightings Over Time
 From 1947 onwards, there have been distinct peaks in UFO reports. Sightings surged after the famous 1947 sighting by Kenneth Arnold, marking the start of increased public attention. The graph below highlights the number of reported sightings from 1940 to 2020:
 
 
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
+# All packages used in this script:
+library(tidyverse)
+library(here)
+library(withr)
+library(dplyr)
+library(ggplot2)
+library(patchwork)
+library(knitr)
+library(rvest)
+library(kableExtra)
+
+```
+
+
+
+```{r, warning=FALSE, echo=FALSE}
+url <- "https://github.com/jonthegeek/apis/raw/main/data/data_ufo_reports_with_day_part.rds"
+ufo_path <- withr::local_tempfile(fileext = ".rds")
+download.file(url, ufo_path)
+```
+
+
+
+```{r, echo=FALSE}
+ufo_data_original <- readRDS(ufo_path)
+```
+
+
+```{r, echo=FALSE}
+ufo_sightings <- ufo_data_original |> 
+  dplyr::select(
+    reported_date_time:city,
+    state, 
+    country_code,
+    shape:has_images,
+    day_part
+  ) |> 
+  # This got normalized after the data was saved, re-normalize.
+  dplyr::mutate(
+    shape = tolower(shape)
+  )
+```
+
+
+
+```{r, echo=FALSE}
+places <- ufo_data_original |>
+  dplyr::select(
+    city:country_code, 
+    latitude:elevation_m
+  ) |> 
+  dplyr::distinct()
+```
+
+
+
 As seen in the figure, major spikes occurred during periods of geopolitical tension, particularly the Cold War era. This suggests that UFO reports are influenced not only by public fascination but also by external cultural and historical events. For instance, the 1970s saw a dramatic rise in sightings, potentially driven by conspiracy theories and government mistrust during this period.
+
+
+Conclusion
+This analysis confirms that UFO sightings often correlate with periods of heightened geopolitical tension or cultural shifts, particularly during the Cold War and in recent years. While the number of sightings has fluctuated, they remain an enduring part of public imagination. However, it’s important to approach these reports critically, as many sightings can be attributed to natural or human-made phenomena.
+
+As public interest in UFOs continues, there is a need for transparency and critical analysis of such sightings. We must focus on addressing real-world issues while maintaining a healthy curiosity about the unknown.
