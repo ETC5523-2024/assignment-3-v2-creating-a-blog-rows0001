@@ -11,4 +11,10 @@
 }
 
 
-
+/* Custom background color for the "Meet Rowshni" section */
+#about-section {
+  background-color: #f0f4f8;  /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  color: #333333;  /* Text color */
+}
