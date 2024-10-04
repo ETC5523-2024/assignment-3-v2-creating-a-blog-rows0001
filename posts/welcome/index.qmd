@@ -102,6 +102,52 @@ places <- ufo_data_original |>
 
 
 
+```{r, echo=FALSE}
+# Extract the year from 'reported_date_time'
+ufo_sightings_year <- ufo_sightings %>%
+  mutate(year = format(as.POSIXct(reported_date_time, format = "%Y-%m-%d %H:%M:%S"), "%Y"))
+```
+
+
+
+```{r, echo=FALSE}
+# Summarize the number of sightings per year
+yearly_sightings <- ufo_sightings_year %>%
+  group_by(year) %>%
+  summarise(count = n(), .groups = 'drop')
+```
+
+
+```{r, echo=FALSE}
+# Convert year to numeric for plotting
+yearly_sightings <- yearly_sightings %>%
+  mutate(year = as.numeric(year))
+```
+
+
+```{r, echo=FALSE}
+# Separate the data into two time periods
+data_before_1990 <- yearly_sightings %>%
+  filter(year <= 1990)
+
+data_from_1991 <- yearly_sightings %>%
+  filter(year >= 1991)
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
 As seen in the figure, major spikes occurred during periods of geopolitical tension, particularly the Cold War era. This suggests that UFO reports are influenced not only by public fascination but also by external cultural and historical events. For instance, the 1970s saw a dramatic rise in sightings, potentially driven by conspiracy theories and government mistrust during this period.
 
 
