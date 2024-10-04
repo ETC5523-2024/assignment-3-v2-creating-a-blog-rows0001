@@ -1,0 +1,14 @@
+/* CSS styles for the navbar and title banner */
+.navbar-dark, .quarto-title-banner {
+  background-color: #008080;  /* Light gray-blue color */
+  color: #333333;  /* Optional: Change text color for contrast */
+}
+
+/* Styles for the navbar */
+.navbar {
+  background-color: #D3D3D3;  /* Same color as title banner */
+  color: #ffffff;  /* White text for contrast */
+}
+
+
+
