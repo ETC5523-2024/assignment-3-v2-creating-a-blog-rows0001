@@ -135,11 +135,41 @@ data_from_1991 <- yearly_sightings %>%
 ```
 
 
-```{r}
-
+```{r, echo=FALSE}
+# Plot for years up to 1990 with custom color
+plot_before_1990 <- ggplot(data = data_before_1990, aes(x = year, y = count)) +
+  geom_line(color = "blue") +  # Set the line color
+  geom_point(color = "blue") +  # Set the point color
+  labs(title = "UFO Sightings Up to 1990",
+       x = "Year",
+       y = "Number of Sightings") +
+  theme_minimal()
 ```
 
 
+```{r, echo=FALSE}
+# Display the plot
+print(plot_before_1990)
+```
+
+
+```{r, echo=FALSE}
+# Plot for years from 1991 to the latest year with custom color
+plot_from_1991 <- ggplot(data = data_from_1991, aes(x = year, y = count)) +
+  geom_line(color = "green") +  # Set the line color
+  geom_point(color = "green") +  # Set the point color
+  labs(title = "UFO Sightings from 1991 Onwards",
+       x = "Year",
+       y = "Number of Sightings") +
+  theme_minimal()
+```
+
+
+
+```{r, echo=FALSE}
+# Display the plot
+print(plot_from_1991)
+```
 
 
 
